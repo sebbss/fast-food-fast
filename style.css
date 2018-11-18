@@ -1,15 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: auto;
+    height: 100vh;
+    background-size: cover;
     margin: 0;
-    color:#926239;
+    color:#fff;
     line-height: 1.6;
     font-size: 17px;
+    background-image:url(https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+    
 }
 #showcase{
-    background-size: cover;
-    height: 100vh;
-    background-image:url(https://newsroom.unsw.edu.au/sites/default/files/styles/full_width/public/thumbnails/image/5_junk_food_shutterstock_1.jpg?itok=X29w4W_j)
+    text-align: center
     
     
+    
+}
+header {
+    border-bottom: #926239 3px solid;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: green;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #f44336;
 
+    
+}
+li{
+    float:right;
+
+}
+.headings{
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: #333;
+    justify-content: center;
+
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+table, th, td {
+    border: 1px solid rgb(214, 208, 208);
+    border-collapse: collapse;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container_signup {
+    display:block;
+    margin:0 auto;
+    padding: 16px;
+    width:50%
+    
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+.item_table{
+    margin:0 auto;
 }
